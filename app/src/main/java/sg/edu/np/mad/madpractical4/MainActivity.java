@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         User user = ListActivity.users.stream()
             .filter(u -> u.id == Id)
             .findFirst()
-            .orElse(new User("John Doe", "MAD Developer", 1, false));
+            .orElse(new User("John Doe", "MAD Developer", 0, false));
         TextView tvDescription = findViewById(R.id.tvDescription);
         TextView tvName = findViewById(R.id.tvName);
         Button btnFollow = findViewById(R.id.btnFollow);

@@ -25,7 +25,7 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
 
         users = new ArrayList<>();
-        for (int i = 1; i < 21; i++) {
+        for (int i = 0; i < 20; i++) {
             Random random = new Random();
             int randomw = random.nextInt(100000000);
             String randomInt = Integer.toString(randomw);
