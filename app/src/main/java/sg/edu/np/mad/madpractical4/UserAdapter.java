@@ -14,8 +14,8 @@ public class UserAdapter extends RecyclerView.Adapter<UserViewHolder> {
 
     private ArrayList<User> users;
 
-    public UserAdapter(ArrayList<User> users) {
-        this.users = users;
+    public UserAdapter(ArrayList<User> useris) {
+        this.users = useris;
     }
 
     @NonNull
