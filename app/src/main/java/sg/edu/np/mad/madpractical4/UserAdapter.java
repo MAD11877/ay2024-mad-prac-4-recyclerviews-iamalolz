@@ -65,3 +65,4 @@ public class UserAdapter extends RecyclerView.Adapter<UserViewHolder> {
         return users.size();
     }
 }
+
